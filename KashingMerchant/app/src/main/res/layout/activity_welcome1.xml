@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#60BF9D">
+
+    <com.superlight.kashingmerchant.utilities.CustomFontTextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="center"
+        android:textColor="#4a4a4a"
+        android:textSize="18sp"
+        android:text="WELCOME TO KASHING!"
+        app:customFont="HelveticaNeue_Bold.ttf"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/img_banner1"/>
+
+    <com.superlight.kashingmerchant.utilities.CustomFontTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:textSize="11sp"
+        android:textColor="#ffffff"
+        android:maxLines="100"
+        app:customFont="HelveticaNeue_Medium.ttf"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="To get you up and running as quick as possible we need to create your Kashing account. This process requires obtaining some personal information about you and your business."/>
+
+    <com.superlight.kashingmerchant.utilities.CustomFontTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="20dp"
+        android:textSize="10sp"
+        android:textColor="#ffffff"
+        android:maxLines="100"
+        app:customFont="HelveticaNeue_Medium.ttf"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="This is to ensure we comply with regulatory requirements as is specified by the Financial Conduct Authority and know our customers. Personal information gathered will be kept to a minimum for us to operate as a financial institution."/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/custom_next_btn"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:text="Next"
+            android:id="@+id/btn_next"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/custom_next_btn"
+            android:layout_centerVertical="true"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:text="Cancel"
+            android:id="@+id/btn_cancel"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

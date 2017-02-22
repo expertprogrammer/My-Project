@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.superlight.kashingmerchant">
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-feature
+        android:name="android.hardware.camera.any"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/img_app_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.SigninActivity"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".activities.Welcome1Activity"/>
+        <activity android:name=".activities.Welcome2Activity"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".activities.Welcome3Activity"/>
+        <activity android:name=".activities.CheckoutActivity"/>
+        <activity android:name=".activities.SettingActivity"/>
+        <activity android:name=".activities.PosActivity"/>
+        <activity android:name=".activities.PaymentActivity"/>
+        <activity android:name=".activities.SaleTokensActivity"/>
+        <activity android:name=".activities.LockActivity"/>
+    </application>
+
+</manifest>

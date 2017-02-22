@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="40dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:src="@drawable/img_logo"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerInParent="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="COMPANY NAME"
+                    android:textSize="18sp"
+                    android:textColor="#e1e1e1"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal"
+                    android:background="#eeeeee">
+
+                    <com.superlight.kashingmerchant.utilities.CustomFontTextView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:text="@string/font_awesome_company_icon"
+                        android:textColor="#d1d1d1"
+                        android:textSize="25sp"
+                        app:customFont="Fontawesome_Webfont.ttf"/>
+
+                    <com.superlight.kashingmerchant.utilities.CustomEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#69737a"
+                        android:textSize="18sp"
+                        android:inputType="textPersonName"
+                        android:hint="Your company name..."
+                        android:textColorHint="#d1d1d1"
+                        android:background="#00ffffff"
+                        app:edittextfont="fonts/HelveticaNeue_Medium.ttf"
+                        app:edittextfontHint="fonts/HelveticaNeue_Medium.ttf"
+                        android:id="@+id/et_companyname"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EMAIL"
+                    android:textSize="18sp"
+                    android:textColor="#e1e1e1"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal"
+                    android:background="#eeeeee">
+
+                    <com.superlight.kashingmerchant.utilities.CustomFontTextView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:text="@string/font_awesome_email_icon"
+                        android:textColor="#d1d1d1"
+                        android:textSize="25sp"
+                        app:customFont="Fontawesome_Webfont.ttf"/>
+
+                    <com.superlight.kashingmerchant.utilities.CustomEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#69737a"
+                        android:textSize="18sp"
+                        android:inputType="textEmailAddress"
+                        android:hint="Your email..."
+                        android:textColorHint="#d1d1d1"
+                        android:background="#00ffffff"
+                        app:edittextfont="fonts/HelveticaNeue_Medium.ttf"
+                        app:edittextfontHint="fonts/HelveticaNeue_Medium.ttf"
+                        android:id="@+id/et_email"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PASSWORD"
+                    android:textSize="18sp"
+                    android:textColor="#e1e1e1"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal"
+                    android:background="#eeeeee">
+
+                    <com.superlight.kashingmerchant.utilities.CustomFontTextView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:text="@string/font_awesome_lock_icon"
+                        android:textColor="#d1d1d1"
+                        android:textSize="25sp"
+                        app:customFont="Fontawesome_Webfont.ttf"/>
+
+                    <com.superlight.kashingmerchant.utilities.CustomEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#69737a"
+                        android:textSize="18sp"
+                        android:inputType="textPassword"
+                        android:hint="Write a password..."
+                        android:textColorHint="#d1d1d1"
+                        android:background="#00ffffff"
+                        app:edittextfont="fonts/HelveticaNeue_Medium.ttf"
+                        app:edittextfontHint="fonts/HelveticaNeue_Medium.ttf"
+                        android:id="@+id/et_password"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PASSWORD CONFIRMATION"
+                    android:textSize="18sp"
+                    android:textColor="#e1e1e1"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal"
+                    android:background="#eeeeee">
+
+                    <com.superlight.kashingmerchant.utilities.CustomFontTextView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:text="@string/font_awesome_lock_icon"
+                        android:textColor="#d1d1d1"
+                        android:textSize="25sp"
+                        app:customFont="Fontawesome_Webfont.ttf"/>
+
+                    <com.superlight.kashingmerchant.utilities.CustomEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#69737a"
+                        android:textSize="18sp"
+                        android:inputType="textPassword"
+                        android:hint="Confirm the password..."
+                        android:textColorHint="#d1d1d1"
+                        android:background="#00ffffff"
+                        app:edittextfont="fonts/HelveticaNeue_Medium.ttf"
+                        app:edittextfontHint="fonts/HelveticaNeue_Medium.ttf"
+                        android:id="@+id/et_repassword"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/custom_register_btn"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:textColor="#fc6c36"
+            android:textSize="25sp"
+            android:text="Register"
+            android:id="@+id/btn_register"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/custom_register_btn"
+            android:layout_centerVertical="true"
+            android:textColor="#fc6c36"
+            android:textSize="25sp"
+            android:text="Back"
+            android:id="@+id/btn_back"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

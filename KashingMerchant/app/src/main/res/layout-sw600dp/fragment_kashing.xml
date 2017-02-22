@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp">
+
+        <com.superlight.kashingmerchant.utilities.CustomFontTextView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="@string/font_awesome_lock_icon"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary"
+            app:customFont="Fontawesome_Webfont.ttf"
+            android:id="@+id/btn_lock"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/img_kashing"/>
+        <com.superlight.kashingmerchant.utilities.CustomFontTextView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="@string/font_awesome_setting_icon"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary"
+            app:customFont="Fontawesome_Webfont.ttf"
+            android:id="@+id/btn_setting"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#d1d1d1"
+            android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#ffffff">
+        <com.superlight.kashingmerchant.utilities.CustomFontTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="0.00"
+            android:gravity="center_vertical|right"
+            android:textSize="50sp"
+            android:textColor="#60BF9D"
+            app:customFont="Digital.ttf"
+            android:lines="1"
+            android:id="@+id/tv_output_field"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#d1d1d1"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="#EBEBF1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/custom_cardview"
+                android:id="@+id/new_view">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_centerInParent="true">
+
+                    <com.superlight.kashingmerchant.utilities.CustomFontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="#d1d1d1"
+                        android:textSize="12sp"
+                        android:text="@string/font_awesome_note_icon"
+                        android:textStyle="bold"
+                        android:layout_marginRight="5dp"
+                        app:customFont="Fontawesome_Webfont.ttf" />
+
+                    <com.superlight.kashingmerchant.utilities.CustomFontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center_vertical"
+                        android:textSize="10sp"
+                        android:text="NEW SALE"
+                        android:textColor="#69737a"
+                        app:customFont="HelveticaNeue_Medium.ttf" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"/>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/custom_cardview"
+                android:id="@+id/change_sale">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_centerInParent="true">
+
+                    <com.superlight.kashingmerchant.utilities.CustomFontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="#d1d1d1"
+                        android:textSize="12sp"
+                        android:text="@string/font_awesome_refresh_icon"
+                        android:textStyle="bold"
+                        android:layout_marginRight="5dp"
+                        app:customFont="Fontawesome_Webfont.ttf" />
+
+                    <com.superlight.kashingmerchant.utilities.CustomFontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:textSize="10sp"
+                        android:text="CHANGE SALE"
+                        android:textColor="#69737a"
+                        app:customFont="HelveticaNeue_Medium.ttf" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/custom_cardview">
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:scrollbars="none"
+                android:divider="#d1d1d1"
+                android:dividerHeight="1dp"
+                android:id="@+id/products_list"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#d1d1d1"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="#eeeeee"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textColor="#d1d1d1"
+                        android:textSize="14sp"
+                        android:text="TAX"
+                        android:gravity="center_vertical"/>
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"/>
+
+                    <com.superlight.kashingmerchant.utilities.CustomFontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="0.00"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="18sp"
+                        android:gravity="center_vertical"
+                        app:customFont="Digital.ttf"/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="15dp"
+                    android:layout_height="match_parent"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textColor="#d1d1d1"
+                        android:textSize="14sp"
+                        android:text="SUBTOTAL"
+                        android:gravity="center_vertical"/>
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"/>
+
+                    <com.superlight.kashingmerchant.utilities.CustomFontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="0.00"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="18sp"
+                        android:gravity="center_vertical"
+                        app:customFont="Digital.ttf"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#d1d1d1"
+            android:layout_marginTop="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/custom_add_button_bg"
+                android:textSize="18sp"
+                android:textColor="@color/whiteColor"
+                android:text="CHECKOUT"
+                android:id="@+id/btn_checkout"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

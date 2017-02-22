@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">Kashing Merchant</string>
+    <string name="font_awesome_user_icon">&#xf007;</string>
+    <string name="font_awesome_email_icon">&#xf003;</string>
+    <string name="font_awesome_lock_icon">&#xf023;</string>
+    <string name="font_awesome_company_icon">&#xf0f7;</string>
+    <string name="font_awesome_cog_icon">&#xf013;</string>
+    <string name="font_awesome_calculator_icon">&#xf1ec;</string>
+    <string name="font_awesome_users_icon">&#xf0c0;</string>
+    <string name="font_awesome_cutlery_icon">&#xf0f5;</string>
+    <string name="font_awesome_folder_icon">&#xf114;</string>
+    <string name="font_awesome_barcode_icon">&#xf02a;</string>
+    <string name="font_awesome_signout_icon">&#xf08b;</string>
+    <string name="font_awesome_money_icon">&#xf0d6;</string>
+    <string name="font_awesome_back_icon">&#xf104;</string>
+    <string name="font_awesome_plus_icon">&#xf067;</string>
+    <string name="font_awesome_birthday_cake_icon">&#xf1fd;</string>
+    <string name="font_awesome_cab_icon">&#xf1ba;</string>
+    <string name="font_awesome_camera_icon">&#xf030;</string>
+    <string name="font_awesome_cart_plus_icon">&#xf217;</string>
+    <string name="font_awesome_database_icon">&#xf1c0;</string>
+    <string name="font_awesome_delicious_icon">&#xf1a5;</string>
+    <string name="font_awesome_dribbble_icon">&#xf17d;</string>
+    <string name="font_awesome_drupal_icon">&#xf1a9;</string>
+    <string name="font_awesome_gift_icon">&#xf06b;</string>
+    <string name="font_awesome_github_alt_icon">&#xf113;</string>
+    <string name="font_awesome_glass_icon">&#xf000;</string>
+    <string name="font_awesome_google_wallet_icon">&#xf1ee;</string>
+    <string name="font_awesome_heartbeat_icon">&#xf21e;</string>
+    <string name="font_awesome_hourglass_icon">&#xf253;</string>
+    <string name="font_awesome_rebel_icon">&#xf1d0;</string>
+    <string name="font_awesome_universal_icon">&#xf29a;</string>
+    <string name="font_awesome_usd_icon">&#xf155;</string>
+    <string name="font_awesome_wechat_icon">&#xf1d7;</string>
+    <string name="font_awesome_balance_icon">&#xf24e;</string>
+    <string name="font_awesome_bath_icon">&#xf2cd;</string>
+    <string name="font_awesome_edge_icon">&#xf282;</string>
+    <string name="font_awesome_euro_icon">&#xf153;</string>
+    <string name="font_awesome_flask_icon">&#xf0c3;</string>
+    <string name="font_awesome_futbol_icon">&#xf1e3;</string>
+    <string name="font_awesome_ge_icon">&#xf1d1;</string>
+    <string name="font_awesome_life_saver_icon">&#xf1cd;</string>
+    <string name="font_awesome_motorcycle_icon">&#xf21c;</string>
+    <string name="font_awesome_university_icon">&#xf19c;</string>
+    <string name="font_awesome_ambulance_icon">&#xf0f9;</string>
+    <string name="font_awesome_asterisk_icon">&#xf069;</string>
+    <string name="font_awesome_bank_icon">&#xf19c;</string>
+    <string name="font_awesome_android_icon">&#xf17b;</string>
+    <string name="font_awesome_apple_icon">&#xf179;</string>
+    <string name="font_awesome_automobile_icon">&#xf1b9;</string>
+    <string name="font_awesome_bandcamp_icon">&#xf2d5;</string>
+    <string name="font_awesome_beer_icon">&#xf0fc;</string>
+    <string name="font_awesome_binoculars_icon">&#xf1e5;</string>
+    <string name="font_awesome_bluetooth_icon">&#xf294;</string>
+    <string name="font_awesome_book_icon">&#xf02d;</string>
+    <string name="font_awesome_briefcase_icon">&#xf0b1;</string>
+    <string name="font_awesome_calendar_icon">&#xf274;</string>
+    <string name="font_awesome_chrome_icon">&#xf268;</string>
+    <string name="font_awesome_cubes_icon">&#xf1b3;</string>
+    <string name="font_awesome_note_icon">&#xf24a;</string>
+    <string name="font_awesome_refresh_icon">&#xf079;</string>
+
+    <string name="font_awesome_setting_icon">&#xf085;</string>
+
+
+    <string name="year_duration"></string>
+
+    <string-array name="product_icons">
+        <item>@string/font_awesome_user_icon</item>
+        <item>@string/font_awesome_lock_icon</item>
+        <item>@string/font_awesome_cog_icon</item>
+        <item>@string/font_awesome_calculator_icon</item>
+        <item>@string/font_awesome_users_icon</item>
+        <item>@string/font_awesome_cutlery_icon</item>
+        <item>@string/font_awesome_folder_icon</item>
+        <item>@string/font_awesome_barcode_icon</item>
+        <item>@string/font_awesome_money_icon</item>
+        <item>@string/font_awesome_signout_icon</item>
+        <item>@string/font_awesome_birthday_cake_icon</item>
+        <item>@string/font_awesome_cab_icon</item>
+        <item>@string/font_awesome_camera_icon</item>
+        <item>@string/font_awesome_cart_plus_icon</item>
+        <item>@string/font_awesome_database_icon</item>
+        <item>@string/font_awesome_delicious_icon</item>
+        <item>@string/font_awesome_drupal_icon</item>
+        <item>@string/font_awesome_dribbble_icon</item>
+        <item>@string/font_awesome_gift_icon</item>
+        <item>@string/font_awesome_github_alt_icon</item>
+        <item>@string/font_awesome_glass_icon</item>
+        <item>@string/font_awesome_google_wallet_icon</item>
+        <item>@string/font_awesome_heartbeat_icon</item>
+        <item>@string/font_awesome_hourglass_icon</item>
+        <item>@string/font_awesome_rebel_icon</item>
+        <item>@string/font_awesome_universal_icon</item>
+        <item>@string/font_awesome_usd_icon</item>
+        <item>@string/font_awesome_wechat_icon</item>
+        <item>@string/font_awesome_balance_icon</item>
+        <item>@string/font_awesome_bath_icon</item>
+        <item>@string/font_awesome_edge_icon</item>
+        <item>@string/font_awesome_euro_icon</item>
+        <item>@string/font_awesome_flask_icon</item>
+        <item>@string/font_awesome_futbol_icon</item>
+        <item>@string/font_awesome_ge_icon</item>
+        <item>@string/font_awesome_life_saver_icon</item>
+        <item>@string/font_awesome_motorcycle_icon</item>
+        <item>@string/font_awesome_university_icon</item>
+        <item>@string/font_awesome_ambulance_icon</item>
+        <item>@string/font_awesome_asterisk_icon</item>
+        <item>@string/font_awesome_bank_icon</item>
+        <item>@string/font_awesome_android_icon</item>
+        <item>@string/font_awesome_apple_icon</item>
+        <item>@string/font_awesome_automobile_icon</item>
+        <item>@string/font_awesome_bandcamp_icon</item>
+        <item>@string/font_awesome_beer_icon</item>
+        <item>@string/font_awesome_binoculars_icon</item>
+        <item>@string/font_awesome_bluetooth_icon</item>
+        <item>@string/font_awesome_book_icon</item>
+        <item>@string/font_awesome_briefcase_icon</item>
+        <item>@string/font_awesome_calendar_icon</item>
+        <item>@string/font_awesome_chrome_icon</item>
+        <item>@string/font_awesome_cubes_icon</item>
+    </string-array>
+</resources>
